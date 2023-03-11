@@ -27,16 +27,19 @@ Footer .footer-container {
   align-items: center;
   padding: 1rem 2rem;
 }
+
 .app-navbar .navbar-items {
   display: flex;
   list-style: none;
   align-items: center;
   gap: 2rem;
 }
+
 .app-navbar .navbar-items .nav-links {
   color: grey;
   text-decoration: none;
 }
+
 .app-navbar .navbar-items .nav-links:hover {
   font-size: 13px;
   color: white;

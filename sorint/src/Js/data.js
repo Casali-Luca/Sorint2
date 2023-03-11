@@ -6,20 +6,20 @@ export const MenuData = [
       icon: 'fa-solid fa-house-user',
     },
     {
-      title: 'Chi Siamo',
-      url: '/',
+      title: 'About Us',
+      url: '/About_us',
       cName: 'nav-links',
     },
     {
-      title: 'Download Code',
-      url: '/',
-      cName: 'nav-links',
-    },
-    {
-      title: 'Storia',
-      url: 'https://github.com/TgCas24/Sorint2.git',
+      title: 'Some History...',
+      url: '/History',
       cName: 'nav-links',
       icon: 'fa-solid fa-house-user',
+    },
+    {
+      title: 'GitHub Page',
+      url: 'https://github.com/TgCas24/Sorint2.git',
+      cName: 'nav-links',
     },
   ]
   
