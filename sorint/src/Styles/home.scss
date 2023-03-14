@@ -6,6 +6,9 @@ App {
   flex-direction: column;
   justify-content: space-between;
 }
+body{
+  padding-top: 7%;
+}
 
 Footer {
   background-color: black;
@@ -20,26 +23,43 @@ Footer .footer-container {
   justify-content: space-around;
   margin: auto;
 }
+
 .app-navbar {
-  background-color: rgb(43, 29, 87);
+  background-color: rgb(43, 29, 87, .95); // colore della navbar
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-}
+  padding: 1.5rem 2rem;
+  user-select: none;
+  top : 0;
+  position: fixed;
+  left: 0;
+  right:0;  
 
+  
+}
 .app-navbar .navbar-items {
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
+  
+  
 }
 
 .app-navbar .navbar-items .nav-links {
   color: whitesmoke;
   text-decoration: none;
+  font-family: 'Righteous', cursive;
+  font-size: larger;
+
+}
+
+.app-navbar .logo{
+  border-radius: 90%;
+  
 }
 
 .app-navbar .navbar-items .nav-links:hover {
@@ -49,7 +69,21 @@ Footer .footer-container {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    
   }
+
+::-webkit-scrollbar{
+   width: 10px;
+   
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(43, 29, 87, .7);
+  border-radius: 0px; // per avere la scrollbar non quadrata ma ellittica
+}
 
   .bar {
     background-clip: border-box;
@@ -65,7 +99,7 @@ body {
   .bar a {
     float: left;
     font-size: 140%;
-    color: white;
+    color: black;
     text-decoration: solid;
     text-align: center;
     padding: 1.5% 1.8%;
@@ -114,7 +148,14 @@ body {
     font-style: italic;
     padding: 2%;
     margin:0;
+  
+    
   }  
+  p {
+    user-select: none;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+  }
 
   .sottotesto{
     background-color: #669BBC;
@@ -123,7 +164,6 @@ body {
     margin:0;
     padding: 2rem;
     text-align: right;
-    user-select: none;
   }
 
   #divideo{

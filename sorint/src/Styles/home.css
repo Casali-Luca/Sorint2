@@ -6,6 +6,10 @@ App {
   justify-content: space-between;
 }
 
+body {
+  padding-top: 7%;
+}
+
 Footer {
   background-color: black;
   color: white;
@@ -21,25 +25,38 @@ Footer .footer-container {
 }
 
 .app-navbar {
-  background-color: rgb(43, 29, 87);
+  background-color: rgba(43, 29, 87, 0.95);
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  top: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 .app-navbar .navbar-items {
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .app-navbar .navbar-items .nav-links {
   color: whitesmoke;
   text-decoration: none;
+  font-family: "Righteous", cursive;
+  font-size: larger;
+}
+
+.app-navbar .logo {
+  border-radius: 90%;
 }
 
 .app-navbar .navbar-items .nav-links:hover {
@@ -48,6 +65,20 @@ Footer .footer-container {
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(43, 29, 87, 0.7);
+  border-radius: 0px;
 }
 
 .bar {
@@ -64,7 +95,7 @@ body {
 .bar a {
   float: left;
   font-size: 140%;
-  color: white;
+  color: black;
   -webkit-text-decoration: solid;
           text-decoration: solid;
   text-align: center;
@@ -118,10 +149,18 @@ video {
   background-color: #003049;
   resize: both;
   z-index: 1;
-  font-size: 200%;
+  font-size: 300%;
   font-style: italic;
-  padding: 5rem;
+  padding: 2%;
   margin: 0;
+}
+
+p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  font-family: "Righteous", cursive;
 }
 
 .sottotesto {
@@ -131,9 +170,6 @@ video {
   margin: 0;
   padding: 2rem;
   text-align: right;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
 }
 
 #divideo {

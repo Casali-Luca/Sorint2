@@ -8,7 +8,7 @@ const App = () => {
     return (
       <>
       <link rel="shortcut icon" href="" type="image/x-icon"></link>
-      <link rel="stylesheet" href="home.css" />  
+      <link rel="stylesheet" href="home.css"/>  
         <Router>
         <div>
           <Navbar/>
