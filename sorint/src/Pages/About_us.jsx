@@ -1,7 +1,10 @@
 const About_us = () => {
     return (
       <> 
-        <h1>asd</h1>
+        <div className="divPrinc">
+          <h3 className="titoloAU">About Us</h3>
+
+        </div>
       </>
     ); 
   };

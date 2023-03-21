@@ -1,1 +1,75 @@
 /*# sourceMappingURL=About_us.css.map */
+App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  ::selection   {
+    background: #B584FA;
+    color: white;
+    }
+  
+  body {
+    padding-top: 7%;
+  }
+  
+  Footer {
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  Footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .app-navbar {
+    background-color: rgba(43, 29, 87, 0.95);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+  
+  .app-navbar .navbar-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  
+  .app-navbar .navbar-items .nav-links {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Righteous", cursive;
+    font-size: larger;
+  }
+  
+  .app-navbar .navbar-items .nav-links:hover {
+    color: white; 
+    text-decoration: underline;
+  } 
+
+  .divPrinc {
+    margin-left: 20%;
+
+  }
+
+  .titoloAU {
+    color: #B584FA;
+  }

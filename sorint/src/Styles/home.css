@@ -9,7 +9,7 @@ App {
 ::selection   {
   background: #B584FA;
   color: white;
-  }
+}
 
 body {
   padding-top: 7%;
@@ -195,4 +195,28 @@ p {
 .testoImg {
   background-color: rgb(43, 29, 87);
   padding: 3%;
-}/*# sourceMappingURL=home.css.map */
+}
+
+/*---------------------ABOUT US----------------------------*/
+
+.divPrinc {
+  padding-left: 10%;
+  padding-top: 10%;
+
+}
+
+.titoloAU {
+  color: #B584FA;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=home.css.map */
