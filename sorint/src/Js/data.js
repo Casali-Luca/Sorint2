@@ -11,7 +11,7 @@ export const MenuData = [
       cName: 'nav-links',
     },
     {
-      title: 'Some History...',
+      title: 'Some History',
       url: '/History',
       cName: 'nav-links',
       icon: 'fa-solid fa-house-user',

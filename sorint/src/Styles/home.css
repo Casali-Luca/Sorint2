@@ -6,6 +6,11 @@ App {
   justify-content: space-between;
 }
 
+::selection   {
+  background: #B584FA;
+  color: white;
+  }
+
 body {
   padding-top: 7%;
 }
@@ -55,13 +60,16 @@ Footer .footer-container {
   font-size: larger;
 }
 
+.app-navbar .navbar-items .nav-links:hover {
+  color: white; 
+  text-decoration: underline;
+} 
+
 .app-navbar .logo {
   border-radius: 90%;
 }
 
-.app-navbar .navbar-items .nav-links:hover {
-  color: white;
-} 
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
