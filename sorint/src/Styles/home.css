@@ -6,11 +6,6 @@ App {
   justify-content: space-between;
 }
 
-::selection   {
-  background: #B584FA;
-  color: white;
-}
-
 body {
   padding-top: 7%;
 }
@@ -44,7 +39,7 @@ Footer .footer-container {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 10;
 }
 
 .app-navbar .navbar-items {
@@ -61,16 +56,13 @@ Footer .footer-container {
   font-size: larger;
 }
 
-.app-navbar .navbar-items .nav-links:hover {
-  color: white; 
-  text-decoration: underline;
-} 
-
 .app-navbar .logo {
   border-radius: 90%;
 }
 
-
+.app-navbar .navbar-items .nav-links:hover {
+  color: white;
+} 
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -81,8 +73,8 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px black;
-  
+  box-shadow: inset 0 0 5px white;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -90,61 +82,24 @@ body {
   border-radius: 0px;
 }
 
-.bar {
-  background-clip: border-box;
-  overflow: hidden;
-  background-color: #215;
-  top: 0;
-  left: 0;
-  position: sticky;
-  width: 100%;
-  z-index: 2;
-}
-
-.bar a {
-  float: left;
-  font-size: 140%;
-  color: black;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
-  text-align: center;
-  padding: 1.5% 1.8%;
-  text-decoration: none;
-}
-
-.bar :hover {
-  background-color: red;
-  animation: fadeIn 0.3s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .txtimg {
   background-color: rgb(43, 29, 87);
 }
 
 video {
-  /*transform: translate(-50%, -50%); */
-  /*top: 50%;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;
   left: 50%; */
-  /*display: block; */
+  /* display: block; */
   margin: auto;
   position: sticky;
   overflow: scroll;
-  /*z-index: 0; */
   width: 100%;
-  background-attachment: fixed;
-
+  
 }
 
 #videoback {
-  filter: brightness(100%);
+  filter: brightness(90%);
 }
 
 .grandeTesto {
@@ -183,43 +138,9 @@ p {
   text-align: right;
 }
 
-#divideo {
-  background-color: rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-
 .imgDestra {
   float: right;
   display: flex;
   margin-right: 2.5%;
   scale: 100%;
-}
-
-.testoImg {
-  background-color: rgb(43, 29, 87);
-  padding: 3%;
-}
-
-/*---------------------ABOUT US----------------------------*/
-
-.divPrinc {
-  padding-left: 10%;
-  padding-top: 10%;
-
-}
-
-.titoloAU {
-  color: #B584FA;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */
