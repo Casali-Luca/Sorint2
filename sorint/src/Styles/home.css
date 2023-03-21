@@ -143,4 +143,40 @@ p {
   display: flex;
   margin-right: 2.5%;
   scale: 100%;
-}/*# sourceMappingURL=home.css.map */
+}
+
+/*---------------------RIQUADRI----------------------------*/
+
+.divPrinc {
+  padding: 10px;
+  align-items: center;
+}
+
+.divRiquadri {
+  width: 300px;
+  float: left;
+  border: solid;
+  border-color: #a489da;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 1%;
+  text-align: center;
+}
+
+.titoloRiquadri {
+  color: #8b4ee0;
+  text-align: center;
+  font-size: medium;
+  padding: 2px;
+  margin: 2px;
+}
+
+.pRiquadri {
+  color: grey;
+  font-style: italic;
+  padding: 2px;
+  margin: 2px;
+}
+
+
+/*# sourceMappingURL=home.css.map */
