@@ -1,8 +1,15 @@
+import Riquadri from "../Components/Riquadri";
+
 const About_us = () => {
     return (
       <> 
+      <h3 className="titoloAU">About Us</h3>
+      
         <div className="divPrinc">
-          <h3 className="titoloAU">About Us</h3>
+          
+          <Riquadri></Riquadri>
+
+
 
         </div>
       </>

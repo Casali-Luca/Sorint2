@@ -200,16 +200,43 @@ p {
   padding: 3%;
 }
 
-/*---------------------ABOUT US----------------------------*/
+/*---------------------RIQUADRI----------------------------*/
 
 .divPrinc {
-  padding-left: 10%;
-  padding-top: 10%;
-
+  padding: 10px;
+  align-items: center;
 }
 
-.titoloAU {
-  color: #B584FA;
+.divRiquadri {
+  width: 300px;
+  float: left;
+  border: solid;
+  border-color: #a489da;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 1%;
+  text-align: center;
+}
+
+.titoloRiquadri {
+  color: #8b4ee0;
+  text-align: center;
+  font-size: medium;
+  padding: 2px;
+  margin: 2px;
+}
+
+.pRiquadri {
+  color: grey;
+  font-style: italic;
+  padding: 2px;
+  margin: 2px;
+}
+
+.imgRiquadri {
+  border-radius: 50%;
+  padding: 2px;
+  margin: 2px;
 }
 
 
