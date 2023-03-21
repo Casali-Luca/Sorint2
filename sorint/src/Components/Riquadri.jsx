@@ -7,16 +7,15 @@ const Riquadri = () => {
             <div className="divPrinc">
 
                 {RiquadriPersone.map((item)=>{return(
-                    <div className="divRiquadri">
-                        <img className="imgRiquadri" src={item.img}/>
+                    <div className="divRiquadri"> 
+                        <img className="imgRiquadri" src={`/${item.img}`} />
                         <h1 className="titoloRiquadri">{item.title}</h1>
                         <p className="pRiquadri">{item.p}</p>
                     </div>
                 )})}
+
             </div>
-    
         </>
-       
     )
 };
 
