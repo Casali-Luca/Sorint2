@@ -4,7 +4,7 @@ const Home = () =>{
     <p className="grandeTesto">THE BEST PING PONG TRACKER</p>
           <div id="divideo">
             <video autoPlay muted loop id="videoback">
-              <source src={require("../video/video.mp4")} type="video/mp4"/>
+              <source src={require("../video/video_Trim.mp4")} type="video/mp4"/>
             </video>
           </div>
           <p className="gTitolo">"COME A CASA <span style={{color: '#a50000'}}>MA PIÙ IN GRANDE</span>" - Star</p>
