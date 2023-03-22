@@ -1,5 +1,5 @@
 const images = [
-    'https://picsum.photos/id/1015/200/300',
-    'https://picsum.photos/id/1020/200/300',
-    'https://picsum.photos/id/1025/200/300',
+    '/react_routes.png',
+    '/Table_tennis_Rio_2007.jpg',
+    '/Sensor-Module-TCRT5000-tracker-sensor-infrared-tracker-line-tracker.jpg',
   ];

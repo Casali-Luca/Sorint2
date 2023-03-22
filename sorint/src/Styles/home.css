@@ -13,9 +13,11 @@ body {
 }
 
 Footer {
-  background-color: black;
+  background-color:rgba(43, 29, 87, 0.95);
   color: white;
   padding: 2rem 0;
+  bottom:0;
+  width: 100%;
 }
 
 Footer .footer-container {
@@ -136,10 +138,10 @@ p {
 .sottotesto {
   background-color: #669BBC;
   color: white;
-  font-size: 100%;
+  font-size: 1.5rem;
   margin: 0;
   padding: 2rem;
-  text-align: right;
+  text-align: left;
 }
 
 .imgDestra {
@@ -161,14 +163,9 @@ p {
 .divTitolo {
   margin: 10px;
   padding: 10px;
-  float: left;
   padding: 20px;
 }
 
-.divImmagine {
-  float: right;
-  padding: 20px;
-}
 
 .imgAU {
   height: 100%;
@@ -176,10 +173,14 @@ p {
 }
 
 .h1AU {
-  font-size: 200px;
+  font-size: 140px;
   color: rgb(70, 18, 70);
-  font-family: Arial; 
-  text-align: left;
+  font-family: "Righteous";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -220,5 +221,112 @@ p {
 
 .imgRiquadri {
   height: 200px;
+}
+
+.immaginiAboutUs{
+  user-select: none;
+  height: 25rem;
+  border-radius:100%;
+}
+
+
+
+
+.gifSfondo{
+  
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/*---------------------PROVAAAAAA----------------------------*/
+.divProdotti{
+  padding-top: 180px;
+  padding-left: 128px;
+}
+
+.h2Prodotti{
+  font-size: 21px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.fakeScroll{
+  height: 0px;
+  width: 1663px;
+  border: solid;
+  border-width: 0.7px;
+  border-color: #DCDCDC;
+}
+
+.fakeScroll2{
+  height: 0px;
+  width: 140px;
+  border: solid;
+  border-width: 0.7px;
+  border-color: #F04A30;
+}
+
+.divImmagini{
+  margin-left: 128px;
+  margin-right: 128px;
+  padding-top: 81px;
+  overflow: auto;
+  max-height: 4500px;
+}
+
+.divCont{
+  width: 425px;
+  height: auto;
+  padding-right: 89px;
+}
+
+.h1Titolo{
+  text-align: left;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration:none;
+}
+
+.h1Titolo:hover{
+  text-decoration: underline;
+}
+
+.pNum{
+  padding-left: 380px;
+  padding-top: 45px;
+  width: 85px;
+  height: 21px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.imgProd{
+  width: 425px;
+  height: 306px;
+}
+
+.pProd{
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration:none;
 }
 /*# sourceMappingURL=home.css.map */
