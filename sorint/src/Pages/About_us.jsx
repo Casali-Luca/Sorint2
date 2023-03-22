@@ -1,5 +1,4 @@
 import Riquadri from "../Components/Riquadri";
-
 const About_us = () => {
     return (
       <> 
@@ -11,6 +10,7 @@ const About_us = () => {
             <img className="imgAU" src="sorint\public\images\download.jpg" alt="" />
           </div>
         </div> */}
+        <h1>About us</h1>
         <div className="divPrinc">
           <Riquadri></Riquadri>
         </div>

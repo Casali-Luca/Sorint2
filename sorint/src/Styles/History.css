@@ -1,0 +1,13 @@
+.titolo{
+    padding: 2rem;
+}
+
+.paragrafo{
+    padding: 2rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
