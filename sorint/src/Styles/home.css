@@ -18,6 +18,7 @@ Footer {
   padding: 2rem 0;
   bottom:0;
   width: 100%;
+  margin-top: 20px;
 }
 
 Footer .footer-container {
@@ -151,6 +152,199 @@ p {
   scale: 100%;
 }
 
+/*---------------------HOME----------------------------*/
+
+.divDescr{
+  padding-left: 128px;
+  padding-top: 100px;
+  width: 744px;
+  height: 205px;
+  float: left;
+}
+
+.pDescr{
+  font-size: 42px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.divDescr2{
+  padding-left: 1142px;
+  padding-top: 120px;
+  width: 650px;
+  height: 205px;
+}
+
+.pDescr2{
+  line-height: 36px;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+
+
+
+
+.divProdotti{
+  padding-top: 180px;
+  padding-left: 128px;
+}
+
+.h2Prodotti{
+  font-size: 21px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.fakeScroll{
+  height: 0px;
+  width: 1663px;
+  border: solid;
+  border-width: 0.7px;
+  border-color: #DCDCDC;
+}
+
+.fakeScroll2{
+  height: 0px;
+  width: 140px;
+  border: solid;
+  border-width: 0.7px;
+  border-color: #331F5B;
+  float: left
+}
+
+.divImmagini{
+  margin-left: 128px;
+  margin-right: 128px;
+  padding-top: 81px;
+  overflow: auto;
+  max-height: 4500px;
+}
+
+.divCont{
+  width: 425px;
+  height: auto;
+  padding-right: 89px;
+  float: left;
+}
+
+.h1Titolo{
+  text-align: left;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration:none;
+}
+
+.aHome {
+  text-decoration:none;
+}
+
+.h1Titolo:hover{
+  text-decoration: underline;
+}
+
+.imgProd{
+  width: 425px;
+  height: 306px;
+}
+
+.pProd{
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration:none;
+}
+.imgPerf{
+  width: 812px;
+  height: 580px;
+  margin-left: 128px;
+  margin-top: 207px;
+  float: left;
+}
+
+.divPerf{
+  width: 829px;
+  height: 540px;
+  background-color: #ececec;
+  margin-top: 207px;
+  margin-left: 963px;
+  padding-bottom: 40px;
+}
+
+.h2Perf{
+  padding-top: 60px;
+  margin-left: 61px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #331F5B;
+  opacity: 1;
+}
+
+.h1Perf{
+  padding-top: 10px;
+  margin-right: 61px;
+  margin-left: 61px;
+  text-align: left;
+  font-size: 42px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #212121;
+  opacity: 1;
+}
+
+.pPerf{
+  padding-top: 30px;
+  margin-right: 61px;
+  margin-left: 61px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #212121;
+  opacity: 1;
+}
+
+.buttonPerf{
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration:none;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-left: 61px;
+  margin-top: 10px;
+  width: 270px;
+  height: 69px;
+  border: solid;
+  border-color: #915EAD;
+  transition: .5s ease;
+}
+
+.buttonPerf:hover{
+  border-color: #F04A30;
+}
+
+.aPerf{
+  font-size: 21px;
+  color: #212121;
+  text-decoration:none;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
 /*---------------------RIQUADRI----------------------------*/
 
 
@@ -244,89 +438,5 @@ p {
 
 
 
-/*---------------------PROVAAAAAA----------------------------*/
-.divProdotti{
-  padding-top: 180px;
-  padding-left: 128px;
-}
 
-.h2Prodotti{
-  font-size: 21px;
-  font-family: 'Trebuchet MS', sans-serif;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-}
-
-.fakeScroll{
-  height: 0px;
-  width: 1663px;
-  border: solid;
-  border-width: 0.7px;
-  border-color: #DCDCDC;
-}
-
-.fakeScroll2{
-  height: 0px;
-  width: 140px;
-  border: solid;
-  border-width: 0.7px;
-  border-color: #F04A30;
-}
-
-.divImmagini{
-  margin-left: 128px;
-  margin-right: 128px;
-  padding-top: 81px;
-  overflow: auto;
-  max-height: 4500px;
-}
-
-.divCont{
-  width: 425px;
-  height: auto;
-  padding-right: 89px;
-}
-
-.h1Titolo{
-  text-align: left;
-  font-size: 32px;
-  font-family: 'Trebuchet MS', sans-serif;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-  text-decoration:none;
-}
-
-.h1Titolo:hover{
-  text-decoration: underline;
-}
-
-.pNum{
-  padding-left: 380px;
-  padding-top: 45px;
-  width: 85px;
-  height: 21px;
-  font-size: 18px;
-  font-family: 'Trebuchet MS', sans-serif;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-  text-decoration: none;
-}
-
-.imgProd{
-  width: 425px;
-  height: 306px;
-}
-
-.pProd{
-  text-align: left;
-  font-size: 18px;
-  font-family: 'Trebuchet MS', sans-serif;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-  text-decoration:none;
-}
 /*# sourceMappingURL=home.css.map */

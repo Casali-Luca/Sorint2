@@ -37,7 +37,7 @@ const Footer = () => {
             <a style={{ color: '#fff' }}>simone.conca2006@gmail.com</a>
         </li>
         <li>
-            <a style={{ color: '#fff' }}>laila0azza5@gmail.com (nono perilsardo)</a>
+            <a style={{ color: '#fff' }}>laila0azza5@gmail.com</a>
         </li>
         <li>
             <a style={{ color: '#fff' }}>malaikaahmad03@gmail.com</a>
