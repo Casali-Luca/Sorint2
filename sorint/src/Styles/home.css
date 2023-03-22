@@ -9,6 +9,7 @@ App {
 body {
   padding-top: 7%;
   overflow-x: hidden;
+  background-color: rgba(211, 211, 211, 0.95);
 }
 
 Footer {
@@ -61,10 +62,11 @@ Footer .footer-container {
   border-radius: 90%;
 }
 
-.app-navbar .navbar-items .nav-links:hover {
+.app-navbar .navbar-items .nav-links:hover{
   color: white;
   text-decoration: underline;
 } 
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
