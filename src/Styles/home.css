@@ -1,0 +1,445 @@
+/*colors = #780000, #C1121F, #FDF0D5, #003049, #669BBC, #215, rgb(43, 29, 87)*/
+App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  padding-top: 7%;
+  overflow-x: hidden;
+  background-color: rgba(211, 211, 211, 0.95);
+}
+
+Footer {
+  background-color:rgba(43, 29, 87, 0.95);
+  color: white;
+  padding: 2rem 0;
+  bottom:0;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  position: bottom;
+}
+
+Footer .footer-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1110px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.app-navbar {
+  background-color: rgba(43, 29, 87, 0.95);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  top: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.app-navbar .navbar-items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.app-navbar .navbar-items .nav-links {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Righteous", cursive;
+  font-size: larger;
+}
+
+.app-navbar .logo {
+  border-radius: 90%;
+}
+
+.app-navbar .navbar-items .nav-links:hover{
+  color: white;
+  text-decoration: underline;
+} 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(43, 29, 87, 0.7);
+  border-radius: 0px;
+}
+
+.txtimg {
+  background-color: rgb(43, 29, 87);
+}
+
+video {
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;
+  left: 50%; */
+  /* display: block; */
+  margin: auto;
+  position: sticky;
+  overflow: scroll;
+  width: 100%;
+}
+
+#videoback {
+  filter: brightness(90%);
+}
+
+
+.grandeTesto {
+  text-align: center;
+  color: rgb(43, 29, 87);
+  resize: both;
+  z-index: 1;
+  font-size: 200%;
+  font-style: italic;
+}
+
+.gTitolo {
+  background-color: #003049;
+  resize: both;
+  z-index: 1;
+  font-size: 300%;
+  font-style: italic;
+  padding: 2%;
+  margin: 0;
+}
+
+p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  font-family: "Righteous", cursive;
+}
+
+.sottotesto {
+  background-color: #669BBC;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 2rem;
+  text-align: left;
+}
+
+.imgDestra {
+  float: right;
+  display: flex;
+  margin-right: 2.5%;
+  scale: 100%;
+}
+
+/*---------------------HOME----------------------------*/
+
+.divDescr{
+  padding-left: 128px;
+  padding-top: 100px;
+  width: 744px;
+  height: 205px;
+  float: left;
+}
+
+.pDescr{
+  font-size: 42px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.divDescr2{
+  padding-left: 1142px;
+  padding-top: 120px;
+  width: 650px;
+  height: 205px;
+}
+
+.pDescr2{
+  line-height: 36px;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+
+
+
+
+.divProdotti{
+  padding-top: 180px;
+  padding-left: 128px;
+}
+
+.h2Prodotti{
+  font-size: 21px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.fakeScroll{
+  height: 0px;
+  width: 1663px;
+  border: solid;
+  border-width: 0.7px;
+  border-color: #DCDCDC;
+}
+
+.fakeScroll2{
+  height: 0px;
+  width: 140px;
+  border: solid;
+  border-width: 0.7px;
+  border-color: #331F5B;
+  float: left
+}
+
+.divImmagini{
+  margin-left: 128px;
+  margin-right: 128px;
+  padding-top: 81px;
+  overflow: auto;
+  max-height: 4500px;
+}
+
+.divCont{
+  width: 425px;
+  height: auto;
+  padding-right: 89px;
+  float: left;
+}
+
+.h1Titolo{
+  text-align: left;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration:none;
+}
+
+.aHome {
+  text-decoration:none;
+}
+
+.h1Titolo:hover{
+  text-decoration: underline;
+}
+
+.imgProd{
+  width: 425px;
+  height: 306px;
+}
+
+.pProd{
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration:none;
+}
+.imgPerf{
+  width: 812px;
+  height: 580px;
+  margin-left: 128px;
+  margin-top: 207px;
+  float: left;
+}
+
+.divPerf{
+  width: 829px;
+  height: 540px;
+  background-color: #ececec;
+  margin-top: 207px;
+  margin-left: 963px;
+  padding-bottom: 40px;
+}
+
+.h2Perf{
+  padding-top: 60px;
+  margin-left: 61px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #331F5B;
+  opacity: 1;
+}
+
+.h1Perf{
+  padding-top: 10px;
+  margin-right: 61px;
+  margin-left: 61px;
+  text-align: left;
+  font-size: 42px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #212121;
+  opacity: 1;
+}
+
+.pPerf{
+  padding-top: 30px;
+  margin-right: 61px;
+  margin-left: 61px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: 'Trebuchet MS', sans-serif;
+  letter-spacing: 0px;
+  color: #212121;
+  opacity: 1;
+}
+
+.buttonPerf{
+  font-size: 21px;
+  color: #ffffff;
+  text-decoration:none;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-left: 61px;
+  margin-top: 10px;
+  width: 270px;
+  height: 69px;
+  border: solid;
+  border-color: #915EAD;
+  transition: .5s ease;
+}
+
+.buttonPerf:hover{
+  border-color: #F04A30;
+}
+
+.aPerf{
+  font-size: 21px;
+  color: #212121;
+  text-decoration:none;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/*---------------------RIQUADRI----------------------------*/
+
+
+.divPrimo {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+.divTitolo {
+  margin: 10px;
+  padding: 10px;
+  padding: 20px;
+}
+
+
+.imgAU {
+  height: 100%;
+  width: 100%;
+}
+
+.h1AU {
+  font-size: 140px;
+  color: rgb(70, 18, 70);
+  font-family: "Righteous";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.divPrinc {
+  padding: 20px;
+  
+  align-items: center;
+  justify-content: center;
+  height: 90rem;
+  width: 100%;
+}
+
+.divRiquadri {
+  width: 350px;
+  float: left;
+  border: solid;
+  border-color: #a489da;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 1%;
+  text-align: center;
+}
+
+.titoloRiquadri {
+  color: #8b4ee0;
+  text-align: center;
+  font-size: x-large;
+  padding: 2px;
+  margin: 2px;
+  font-family:cursive;
+}
+
+.pRiquadri {
+  color: grey;
+  font-style: italic;
+  padding: 2px;
+  margin: 2px;
+}
+
+.imgRiquadri {
+  height: 200px;
+}
+
+.immaginiAboutUs{
+  user-select: none;
+  height: 25rem;
+  border-radius:100%;
+}
+
+
+
+
+.gifSfondo{
+  
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+/*# sourceMappingURL=home.css.map */
