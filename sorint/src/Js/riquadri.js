@@ -30,12 +30,12 @@ export const RiquadriPersone = [
           p: '19 - Soprannominato "Ermellino"',
     },
     {
-          img: '/2318271-icona-profilo-utente-vettoriale.jpeg',
+          img: '/2318271-icona-profilo-utente-vettoriale.jpg',
           title: 'Malaika Ahmad',
           p: '19',
     },
     {
-        img: "/2318271-icona-profilo-utente-vettoriale.jpg",
+        img: "/muscolino.jpeg",
         title: 'Alessandro Muscolino',
         p: '17 - Gym - Nanie s Top Hater',
     },
