@@ -6,8 +6,8 @@ const About_us = () => {
             <div className="divTitolo">
             <h1 className="h1AU">About<br/><span style={{color: '#a50000'}}>Us</span></h1>
           </div>
-          <div className="divImmagine">
-            <img className="imgAU" src="sorint\public\images\download.jpg" alt="" />
+        <div className="divImmagine">
+            {/* <img className="imgAU" src="sorint\public\images\download.jpg" alt="" /> */}
           </div>
         </div> }
 

@@ -19,17 +19,30 @@ const SlideShow = () => {
     setIsPlaying(!isPlaying);
   };
   let background = images[currentIndex];
+  
   return (
     <div className="slideshow-container">
-      <div style={{backgroundImage: `url(${background})`,backgroundPosition: 'center',backgroundRepeat: 'no-repeat'}}></div>
+    
+      <div style={{
+        backgroundImage: "url(/React-icon.svg.png)",
+        backgroundSize: '20rem',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        height: 400,
+        width: '500rem',
+      
 
-      <img src={images[currentIndex]} alt="Slideshow" />
+
+        }}>
+          
+        </div>
+{/*
       {isPlaying && (
         <button onClick={togglePlay}>Pause</button>
       )}
       {!isPlaying && (
         <button onClick={togglePlay}>Play</button>
-      )}
+      )}*/}
     </div>
   );
 };
