@@ -1,41 +1,41 @@
 export const RiquadriPersone = [
     {
-        img: "/casali.jpeg",
+        img: "/profile_pictures/casali.jpeg",
         title: 'Luca Casali',
         p: '17 - One of Many ',
     },
     {
-        img: '/conca.jpeg',
+        img: '/profile_pictures/conca.jpeg',
         title: 'Conca Simone',
         p: ' 17 - ER King',
     },
     {
-        img: '/azza.jpeg',
+        img: '/profile_pictures/azza.jpeg',
         title: 'Laila Azza',
         p: '17 - Tech Enjoyer',
     },
     {
-        img: '/giavarini.jpeg',
+        img: '/profile_pictures/giavarini.jpeg',
         title: 'Nicolò Giavarini',
         p: '17 - Bergamasco DOC ',
       },
     {
-          img: '/nanie.jpeg',
+          img: '/profile_pictures/nanie.jpeg',
           title: 'Francesco Nanie',
           p: '17 - Gym - Muscolino s Top Hater',
     },
     {
-          img: '/popov.jpeg',
+          img: '/profile_pictures/popov.jpeg',
           title: 'Mykhailo Popov',
           p: '19 - Soprannominato "Ermellino"',
     },
     {
-          img: '/2318271-icona-profilo-utente-vettoriale.jpg',
+          img: '/profile_pictures/malaika.jpeg',
           title: 'Malaika Ahmad',
           p: '19',
     },
     {
-        img: "/muscolino.jpeg",
+        img: "/profile_pictures/muscolino.jpeg",
         title: 'Alessandro Muscolino',
         p: '17 - Gym - Nanie s Top Hater',
     },

@@ -1,4 +1,10 @@
-/*colors = #780000, #C1121F, #FDF0D5, #003049, #669BBC, #215, rgb(43, 29, 87)*/
+
+
+/*@font-face {
+  font-family: 'Anurati-Regular';
+  src: url('./fonts/Anurati-Regular.otf') format('truetype');
+}*/
+
 App {
   min-height: 100vh;
   display: flex;
@@ -32,7 +38,7 @@ Footer .footer-container {
 }
 
 .app-navbar {
-  background-color: rgba(43, 29, 87, 0.95);
+  background-color: #1B263B;
   color: white;
   display: flex;
   flex-direction: row;
@@ -87,7 +93,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(43, 29, 87, 0.7);
+  background: #415A77;
   border-radius: 0px;
 }
 
@@ -96,10 +102,6 @@ body {
 }
 
 video {
-  /* transform: translate(-50%, -50%); */
-  /* top: 50%;
-  left: 50%; */
-  /* display: block; */
   margin: auto;
   position: sticky;
   overflow: scroll;
@@ -109,7 +111,6 @@ video {
 #videoback {
   filter: brightness(90%);
 }
-
 
 .grandeTesto {
   text-align: center;
@@ -269,6 +270,7 @@ p {
   opacity: 1;
   text-decoration:none;
 }
+
 .imgPerf{
   width: 812px;
   height: 580px;
@@ -426,11 +428,7 @@ p {
   border-radius:100%;
 }
 
-
-
-
 .gifSfondo{
-  
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -438,8 +436,3 @@ p {
   align-items: center;
 }
 
-
-
-
-
-/*# sourceMappingURL=home.css.map */

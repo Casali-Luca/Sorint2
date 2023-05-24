@@ -71,12 +71,11 @@ const Home = () =>{
         <img class="imgPerf" src="/"/>
         <div class="divPerf">
           <h2 class="h2Perf">IL PROGRESS ROUTE</h2>
-          <h1 class="h1Perf"><font color="#915EAD">COME È NATA L'IDEA DEL PROGETTO? </font>?</h1>
-          <p class="pPerf">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h1 class="h1Perf"><font color="#915EAD">COME È NATA L'IDEA DEL PROGETTO </font>?</h1>
+          <p class="pPerf">Spesso, durante le partite, si verificavano discussioni sul fatto che la pallina fosse dentro o fuori dal campo. Abbiamo quindi ideato un sistema di tracking basato sulla famosa libreria in Python (con colore diverso) OpenCV e tecnologia di riconoscimento visivo per tracciare con precisione la posizione della pallina. Questo Tracker registra automaticamente i punti, eliminando qualsiasi ambiguità e garantendo una competizione più equa e divertente per tutti i giocatori.</p>
           <button class="buttonPerf" type="button"><a class="aPerf" href="#">SCOPRI DI PIÙ</a></button>
        </div>   
   </>
   )
-  
 }
 export default Home;
