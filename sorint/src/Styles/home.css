@@ -1,5 +1,3 @@
-
-
 /*@font-face {
   font-family: 'Anurati-Regular';
   src: url('./fonts/Anurati-Regular.otf') format('truetype');
@@ -45,15 +43,23 @@ Footer .footer-container {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*width: 100%;*/
+  position: fixed;
+  z-index: 10;
+  /*transition: top 0.3s;*/
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  top: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 10;
 }
+
+/*
+.navbar-hidden{
+  top: -100px
+}
+*/
 
 .app-navbar .navbar-items {
   display: flex;
@@ -102,7 +108,7 @@ body {
 }
 
 video {
-  margin: auto;
+  margin: none;
   position: sticky;
   overflow: scroll;
   width: 100%;
@@ -112,6 +118,7 @@ video {
   filter: brightness(90%);
 }
 
+/*
 .grandeTesto {
   text-align: center;
   color: rgb(43, 29, 87);
@@ -119,7 +126,7 @@ video {
   z-index: 1;
   font-size: 200%;
   font-style: italic;
-}
+}*/
 
 .gTitolo {
   background-color: #003049;
@@ -188,10 +195,6 @@ p {
   color: #000000;
   opacity: 1;
 }
-
-
-
-
 
 .divProdotti{
   padding-top: 180px;
@@ -286,6 +289,7 @@ p {
   margin-top: 207px;
   margin-left: 963px;
   padding-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .h2Perf{
@@ -334,12 +338,12 @@ p {
   width: 270px;
   height: 69px;
   border: solid;
-  border-color: #915EAD;
+  border-color: #415A77;
   transition: .5s ease;
 }
 
 .buttonPerf:hover{
-  border-color: #F04A30;
+  border-color: #FF9B00;
 }
 
 .aPerf{

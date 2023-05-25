@@ -1,4 +1,3 @@
-
 const debounce = (fn) => {
    let frame;
    return (...params) => {
@@ -11,9 +10,10 @@ const debounce = (fn) => {
   
     } 
   };
+
   const storeScroll = () => {
-    document.documentElement.dataset.scroll = window.scrollY;
-    
+    document.documentElement.dataset.scroll = window.scrollY; 
   }
+  
   document.addEventListener('scroll', debounce(storeScroll), { passive: true });
   storeScroll();
