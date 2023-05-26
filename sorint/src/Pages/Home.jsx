@@ -8,7 +8,7 @@ const Home = () => {
         </video>
       </div>
       <div className="divDescr">
-        <p className="pDescr">Un metodo <font color="#915EAD">rivoluzionario</font> di vedere il Ping Pong. Non lasciarti sfuggire l'opportunità di diventare un giocatore <font color="#8b0000">migliore</font></p>
+        <p className="pDescr">Un metodo <font color="#508CA4">rivoluzionario</font> di vedere il Ping Pong. Non lasciarti sfuggire l'opportunità di diventare un giocatore <font color="#508CA4">migliore</font></p>
       </div>
       <div className="divDescr2">
         <p className="pDescr2">È facile da utilizzare!</p>
@@ -70,7 +70,7 @@ const Home = () => {
       <img className="imgPerf" src="../group.jpg" />
       <div className="divPerf">
         <h2 className="h2Perf">IL PROGRESS ROUTE</h2>
-        <h1 className="h1Perf"><font color="#915EAD">COME È NATA L'IDEA DEL PROGETTO </font>?</h1>
+        <h1 className="h1Perf"><font color="#508CA4">COME È NATA L'IDEA DEL PROGETTO </font>?</h1>
         <p className="pPerf">Spesso, durante le partite, si verificavano discussioni sul fatto che la pallina fosse dentro o fuori dal campo. Abbiamo quindi ideato un sistema di tracking basato sulla famosa libreria in Python (con colore diverso) OpenCV e tecnologia di riconoscimento visivo per tracciare con precisione la posizione della pallina. Questo Tracker registra automaticamente i punti, eliminando qualsiasi ambiguità e garantendo una competizione più equa e divertente per tutti i giocatori.</p>
         {/*<button className="buttonPerf" type="button"><a className="aPerf" href="#">SCOPRI DI PIÙ</a></button>*/}
       </div>
