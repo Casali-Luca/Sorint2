@@ -87,6 +87,7 @@ Footer .footer-container {
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  padding:0;
 }
 
 ::-webkit-scrollbar {
@@ -376,6 +377,8 @@ p, h1, h2, h3, h4, td, thead{
 
 .h1AU {
   font-size: 140px;
+  margin-bottom: 0;
+  margin-top:11rem;
   color: #03456e;
   font-family: "Righteous";
   text-align: center;
