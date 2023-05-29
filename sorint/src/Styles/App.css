@@ -19,7 +19,6 @@ Footer .footer-container {
   margin: auto;
 }
 
-
 .app-navbar {
   background-color: black;
   color: white;
@@ -45,4 +44,4 @@ Footer .footer-container {
 .app-navbar .navbar-items .nav-links:hover {
   font-size: 13px;
   color: white;
-}
+} /*# sourceMappingURL=App.css.map */

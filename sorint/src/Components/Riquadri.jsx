@@ -11,7 +11,7 @@ const Riquadri = () => {
                     return(
                     <>
                     <div className="divRiquadri"> 
-                        <img className="imgRiquadri" src={`/${item.img}`} />
+                        {/* <img className="imgRiquadri" src={`/${item.img}`} /> */}
                         <div className= "immaginiAboutUs" style={{backgroundImage: `url(${background})`,
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat' 

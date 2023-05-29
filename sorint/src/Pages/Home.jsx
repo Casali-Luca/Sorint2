@@ -30,7 +30,7 @@ const Home = () => {
                   <h1 className="h1Titolo">Allenamento<br />Guidato</h1>
                 </a>
                 <img className="imgProd" src="../img1.jpeg" />
-                <p className="pProd">Migliora le tue skills, sia a casa, sia con il tuo coach!.</p>
+                <p className="pProd">Migliora le tue skills, sia a casa, sia con il tuo coach!</p>
               </div>
             </td>
 
@@ -50,7 +50,7 @@ const Home = () => {
                   <h1 className="h1Titolo">Mappatura della<br />Pallina</h1>
                 </a>
                 <img className="imgProd" src="../img3.jpeg" />
-                <p className="pProd">Grazie ad esso è possibile stabilire in tempo reale la posizione della pallina, facilitando anche l'arbitraggio!.</p>
+                <p className="pProd">Grazie ad esso è possibile stabilire in tempo reale la posizione della pallina, facilitando anche l'arbitraggio!</p>
               </div>
             </td>
 
@@ -71,7 +71,7 @@ const Home = () => {
       <div className="divPerf">
         <h2 className="h2Perf">IL PROGRESS ROUTE</h2>
         <h1 className="h1Perf"><font color="#508CA4">COME È NATA L'IDEA DEL PROGETTO </font>?</h1>
-        <p className="pPerf">Spesso, durante le partite, si verificavano discussioni sul fatto che la pallina fosse dentro o fuori dal campo. Abbiamo quindi ideato un sistema di tracking basato sulla famosa libreria in Python (con colore diverso) OpenCV e tecnologia di riconoscimento visivo per tracciare con precisione la posizione della pallina. Questo Tracker registra automaticamente i punti, eliminando qualsiasi ambiguità e garantendo una competizione più equa e divertente per tutti i giocatori.</p>
+        <p className="pPerf">Spesso, durante le partite, si verificavano discussioni sul fatto che la pallina fosse dentro o fuori dal campo. Abbiamo quindi ideato un sistema di tracking basato sulla famosa libreria in Python "OpenCV" e tecnologia di riconoscimento visivo per tracciare con precisione la posizione della pallina. Questo Tracker registra automaticamente i punti, eliminando qualsiasi ambiguità e garantendo una competizione più equa e divertente per tutti i giocatori.</p>
         {/*<button className="buttonPerf" type="button"><a className="aPerf" href="#">SCOPRI DI PIÙ</a></button>*/}
       </div>
 

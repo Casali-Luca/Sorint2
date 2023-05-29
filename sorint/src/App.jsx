@@ -20,7 +20,7 @@ const App = () => {
           </Routes>
         </div>
         </Router>
-        {/*<Footer></Footer>*/}
+        <Footer></Footer>
       </>
     ); 
   };
