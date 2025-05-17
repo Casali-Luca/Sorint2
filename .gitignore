@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/sorint/node_modules
+/sorint/.pnp
+/sorint/.pnp.js
+
+# testing
+/sorint/coverage
+
+# production
+/sorint/build
+
+# misc
+/sorint/.DS_Store
+/sorint/.env.local
+/sorint/.env.development.local
+/sorint/.env.test.local
+/sorint/.env.production.local
+
+/sorint/npm-debug.log*
+/sorint/yarn-debug.log*
+/sorint/yarn-error.log*
+/video.mp4
+/venv
